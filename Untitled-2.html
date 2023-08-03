@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=h2, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Hello how r u?</h2>
+    <p id="demo">Fine or not</p>
+
+    <button type="button" onclick="document.getElementById('demo').innerHTML='Fine'">CLICK ME!</button>
+    <button type="button" onclick="document.getElementById('demo').style.fontSize='40px'">CLICK ME!</button>
+  
+    <button type="button" onclick="document.getElementById('demo').style.backgroundColor='Yellow'">Color ME!</button>
+    <button type="button" onclick="document.getElementById('demo').style.color='red'">Color ME!</button>
+    <button type="button" onclick="document.getElementById('demo').innerHTML=Date()">Date ME!</button>
+    <button type="button" onclick="document.getElementById('demo').style.display='none'">DO NOT CLICK ME!</button>
+  <script>
+    document.getElementById('demo').innerHTML;
+  </script>
+  <script>
+    document.write(2*3);
+  </script>
+  <script>
+    window.alert(2+3);
+
+  </script>
+  <script>
+    console.log(3+6);
+  </script>
+  <script>
+    let x,y,z;
+    x=4;
+    y=5;
+    z=x+y;
+    
+    document.getElementById('demo').innerHTML="The value of z is"+ z + ".";
+    
+  </script>
+  <script>
+    let a,b,c;
+    a=4;
+    b=6;
+    c=a+b;
+    document.getElementById('demo').innerHTML= "The value of c is"+ c + ".";
+
+  </script>
+</body>
+</html>
